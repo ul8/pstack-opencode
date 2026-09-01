@@ -1,0 +1,51 @@
+{
+  "name": "pstack-opencode",
+  "version": "0.1.0",
+  "description": "OpenCode port of Lauren Tan's pstack \u2014 poteto-mode, principles, playbooks, and Task-first agents",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "plugin-v1",
+    "plugin-v2",
+    "skills",
+    "agents",
+    "scripts",
+    "config",
+    "docs",
+    "host-contract.md",
+    "NOTICE.md",
+    "LICENSE",
+    "LICENSE-cursor-team-kit",
+    "UPSTREAM.lock.json",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./plugin-v1/index.js",
+    "./plugin-v1": "./plugin-v1/index.js",
+    "./plugin-v2": "./plugin-v2/index.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "smoke": "node scripts/smoke-plugin.mjs"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "^1.18.0"
+  },
+  "peerDependenciesMeta": {
+    "@opencode-ai/plugin": {
+      "optional": true
+    }
+  },
+  "keywords": [
+    "opencode",
+    "pstack",
+    "poteto-mode",
+    "agent",
+    "skills"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ul8/pstack-opencode.git"
+  },
+  "homepage": "https://github.com/ul8/pstack-opencode"
+}

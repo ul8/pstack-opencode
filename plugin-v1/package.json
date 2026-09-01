@@ -1,0 +1,11 @@
+{
+  "name": "pstack-opencode-plugin-v1",
+  "version": "0.1.0",
+  "description": "pstack-opencode OpenCode v1 plugin (mandate inject + compact re-inject)",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

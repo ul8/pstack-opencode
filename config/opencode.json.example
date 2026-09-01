@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [
+    ["PSTACK_ROOT/plugin-v1", { "mandate": "opt-in" }]
+  ],
+  "skills": {
+    "paths": ["PSTACK_ROOT/skills"]
+  },
+  "instructions": ["PSTACK_ROOT/host-contract.md"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pstack-opencode-plugin-v2",
+  "version": "0.1.0",
+  "description": "pstack-opencode OpenCode v2 plugin sibling (best-effort mandate inject)",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}
